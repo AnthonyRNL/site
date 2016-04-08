@@ -12,10 +12,6 @@ var canvas = document.getElementById('canvas')
     state: "miss",
     pic: images.img
   }
-
-canvas.addEventListener("click", function(){
-  document.location.href = "mailto:anthony.thunder@gmail.com";
-})
 images.img.src = 'img/missingno2.png'
 images.img2.src = "img/email.png"
 

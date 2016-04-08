@@ -11,11 +11,11 @@ app.get('/robots.txt', function (req, res) {
 });
 
 app.get("/", function(req,res){
-  res.render("missingno.ejs")
+  res.render("index.ejs")
 })
 
 app.get("/hi", function(req,res){
-  res.render("index.ejs")
+  res.render("missingno1.ejs")
 })
 
 app.listen(3000, function(){

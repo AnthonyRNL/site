@@ -8,7 +8,6 @@ body {
 canvas {
   margin: 20px auto;
   display: block;
-  cursor: pointer;
 }
 
 #hi{

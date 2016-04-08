@@ -11,6 +11,10 @@ app.get('/robots.txt', function (req, res) {
 });
 
 app.get("/", function(req,res){
+  res.render("missingno.ejs")
+})
+
+app.get("/hi", function(req,res){
   res.render("index.ejs")
 })
 

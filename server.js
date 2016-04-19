@@ -6,13 +6,9 @@ var port = process.env.PORT || 3000;
 app.use(express.static("public"))
 
 
-app.get("/gah", function(req,res){
+app.get("/", function(req,res){
   // res.render("index.ejs")
   res.sendFile(__dirname + "/public/bah.html")
-})
-
-app.get("/hum", function(req,res){
-  res.sendFile(__dirname + '/public/missingno1.html')
 })
 
 app.get("/hi", function(req,res){
